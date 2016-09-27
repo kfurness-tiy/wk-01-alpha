@@ -54,6 +54,10 @@ header h1 {
   padding: 0 20px;
 }
 
+.attention {
+  font-weight: bold;
+}
+
 #dragon {
   background-color: rgba(149, 24, 4, .9);
 }
