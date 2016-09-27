@@ -60,6 +60,7 @@ header h1 {
 
 #dragon {
   background-color: rgba(149, 24, 4, .9);
+  padding-bottom: 20px;
 }
 
 #griffin {
