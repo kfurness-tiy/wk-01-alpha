@@ -1,19 +1,57 @@
-header, footer, .topic {
-  color: white;
+img {
+  width: 350px;
+  height: auto;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 header, footer {
+  color: white;
   text-align: center;
 }
 
 header img {
-  height: 250px;
+  height: 115px;
   width: auto;
-  opacity: 1;
 }
 
 header h1 {
   font-size: 3em;
+}
+
+a{
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:focus {
+
+}
+
+a:active {
+  
+}
+
+.topic {
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  padding: 3px 0 5px 0;
+  width: 75%;
+  margin: auto;
+  font-style: italic;
+  font-size: 1.5em;
 }
 
 .nav {
@@ -22,6 +60,7 @@ header h1 {
 
 .creature {
   border: 2px solid #000;
+  margin: 10px;
 }
 
 .nav li {
