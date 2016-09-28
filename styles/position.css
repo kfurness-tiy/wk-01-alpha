@@ -3,16 +3,17 @@
   margin: 0;
 }
 
+
+.creature {
+  width: 30%;
+  height: 100%;
+}
+
 .links {
   text-align: left;
   width: 500px;
-  display: inline;
 }
 
-.buttons {
-  float: right;
-  display: inline;
-}
 
 .float-left {
   float: left;
@@ -33,5 +34,5 @@
 }
 
 .clearfix {
-  overflow:auto;
+  overflow: hidden;
 }
