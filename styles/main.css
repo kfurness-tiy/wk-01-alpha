@@ -2,15 +2,6 @@ img {
   padding-top: 10px;
 }
 
-h3 {
-  font-weight: normal;
-  font-size: 1.5rem;
-}
-
-footer {
-  padding-bottom: 20px;
-}
-
 header, footer {
   color: white;
   text-align: center;
@@ -26,14 +17,56 @@ header h1 {
   padding: 10px;
 }
 
-.creature img {
-  max-width: 150px;
+button {
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: 3px solid dimgray;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+footer {
+  padding: 15px 0;
+  background-color: black;
+}
+
+.nav-bar {
+  background-color: maroon;
+  padding: 5px 0;
 }
 
 .nav-bar li {
   display: inline;
   padding: 10px;
   font-size: 1.3em;
+}
+
+.creature {
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 15px;
+}
+
+.creature p {
+  line-height: 1.2em;
+  padding: 5px;
+}
+
+.creature h2 {
+  text-align: center;
+}
+
+.creature img {
+  width: 75%;
+  margin: auto;
+  display: block;
+  padding: 5px 5px 10px 5px;
 }
 
 .topic {
@@ -51,28 +84,23 @@ header h1 {
   font-size: 1.5em;
 }
 
-.nav-bar {
-  background-color: red;
-  padding: 5px 0;
-}
-
-.nav-bar ul {
+.links ul {
   list-style-type: none;
+  padding-left: 20px;
 }
 
-.creature {
-  border: 2px solid #000;
-  margin: 10px;
-  padding: 0 20px;
+.buttons ul {
+  padding-right: 20px;
+  padding-left: 0;
 }
+
 
 .attention {
   font-weight: bold;
 }
 
 #dragon {
-  background-color: rgba(149, 24, 4, .9);
-  padding-bottom: 20px;
+  background-color: rgba(149, 24, 4, .5);
 }
 
 #griffin {
