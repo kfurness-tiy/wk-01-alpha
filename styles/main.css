@@ -47,10 +47,22 @@ footer {
   font-size: 1.3em;
 }
 
+
+.links {
+  text-align: left;
+}
+
+.links ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
 .creature {
   border: 2px solid #000;
   margin: 10px;
   padding: 15px;
+  width: 30%;
+  min-height: 500px;
 }
 
 .creature p {
@@ -84,16 +96,10 @@ footer {
   font-size: 1.5em;
 }
 
-.links ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
-
 .buttons ul {
   padding-right: 20px;
   padding-left: 0;
 }
-
 
 .attention {
   font-weight: bold;
